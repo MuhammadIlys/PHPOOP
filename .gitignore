@@ -3,3 +3,6 @@ error.log
 #ignore all log files and don't include them  
 *.log
 Demo/
+
+
+# /////// testing comment ////////
