@@ -1,0 +1,34 @@
+
+COMMANDS AND IT'S DESCRIPTIONS:
+
+git stages : 
+1 : untracked files
+2 : unmodified files
+3 : Modified files
+4 : Staged files
+
+1 : git init 
+=> Initialize .. git will handle tracking activities of this folder
+
+2 : git status
+=>git will show you all untracked files
+untracked means git have no info about these file
+
+3 : git add .
+=>all files go to stagging and unmodified state
+
+WHEN YOU MAKE CHANGES TO A FILE IT GOES TO MODIFIED STATE
+THEN IF YOU RUN GIT ADD COMMAND IT BECOMEs STAGED FILES
+NOW IF YOU RUN GIT COMMIT, ALL STAGED FILES ARE COMMITTED AND
+GIT COMES TO UNMODIFIED STATE AND LOOKS FOR FURTHER CHANGED OR
+MODIFICATIONS
+
+4 : git diff
+=>compare your current working directory to 
+previously staged data
+
+5 : git diff --staged
+=>compare data of all stages of current working directory 
+(show all changes in all stages)
+
+
