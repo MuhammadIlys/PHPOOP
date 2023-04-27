@@ -46,6 +46,20 @@ previously staged data
 =>direct commit the file and didn't got to stagging (skip stagging and commit all files)
 for direct commit all files have to be in staging area (tracked files) eg: git add <filename>
 
+10 : git mv filename
+=> Use to rename a file or move a file to another directory
+
+11 : git rm filename
+=> Use to remove a file from a directory
+ 
+12 : git rm --cached filename
+=> Clear cache for specified file
+
+13 :  git remote add origin https://github.com/MuhammadIlys/phpoop.git
+=>Connect local repo to github repository
+
+14 : git push origin master
+=> push all changes and files to github repository which is linked in previous step
 
 
 10 : git log
