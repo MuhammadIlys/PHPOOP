@@ -55,6 +55,7 @@ for direct commit all files have to be in staging area (tracked files) eg: git a
 12 : git rm --cached filename
 => Clear cache for specified file
 
+
 13 :  git remote add origin https://github.com/MuhammadIlys/phpoop.git
 =>Connect local repo to github repository
 
