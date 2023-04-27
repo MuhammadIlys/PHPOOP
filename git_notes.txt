@@ -51,3 +51,4 @@ for direct commit all files have to be in staging area (tracked files) eg: git a
 10 : git log
 =>show me all the commits and it's comments information
 
+battery info : powercfg/batteryreport
