@@ -29,20 +29,25 @@ MODIFICATIONS
 5 : git reset HEAD "git notes.txt"
 => if you want to reset a single file from staging area and not ready for commit
 
-6 : git diff
+6: git checkout OR git checkout "filename"
+=> if you removed some code and you want it back in your file. This command will match/bring 
+your file from last commit and give you same file as last commit.
+
+
+7 : git diff
 =>compare your current working directory to 
 previously staged data
 
-7 : git diff --staged
+8 : git diff --staged
 =>compare data of all stages of current working directory 
 (show all changes in all stages)
 
-8 : git commit -a -m "your comment here"
+9 : git commit -a -m "your comment here"
 =>direct commit the file and didn't got to stagging (skip stagging and commit all files)
 for direct commit all files have to be in staging area (tracked files) eg: git add <filename>
 
 
 
-8 : git log
+10 : git log
 =>show me all the commits and it's comments information
 
