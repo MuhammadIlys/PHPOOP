@@ -39,6 +39,7 @@ previously staged data
 
 8 : git commit -a -m "your comment here"
 =>direct commit the file and didn't got to stagging (skip stagging and commit all files)
+for direct commit all files have to be in staging area (tracked files) eg: git add <filename>
 
 
 
