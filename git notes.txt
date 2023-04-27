@@ -23,12 +23,25 @@ NOW IF YOU RUN GIT COMMIT, ALL STAGED FILES ARE COMMITTED AND
 GIT COMES TO UNMODIFIED STATE AND LOOKS FOR FURTHER CHANGED OR
 MODIFICATIONS
 
-4 : git diff
+4 : git reset head
+=>if you want to reset all files from staging area and not ready for commit
+
+5 : git reset HEAD "git notes.txt"
+=> if you want to reset a single file from staging area and not ready for commit
+
+6 : git diff
 =>compare your current working directory to 
 previously staged data
 
-5 : git diff --staged
+7 : git diff --staged
 =>compare data of all stages of current working directory 
 (show all changes in all stages)
 
+8 : git commit -a -m "your comment here"
+=>direct commit the file and didn't got to stagging (skip stagging and commit all files)
+
+
+
+8 : git log
+=>show me all the commits and it's comments information
 
